@@ -1,0 +1,14 @@
+server:
+  port: 7081
+
+spring:
+  mvc:
+    servlet:
+      path: /uni-config
+
+logging:
+  level:
+    root: warn
+    com: info
+  file:
+    name: logs/uni-config.log
