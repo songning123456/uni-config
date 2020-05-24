@@ -16,7 +16,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7082/eureka/ # 指定注册中心的地址，以便使用服务发现功能
+      defaultZone: http://192.168.0.109:7082/eureka/ # 指定注册中心的地址，以便使用服务发现功能
 
 logging:
   level:
